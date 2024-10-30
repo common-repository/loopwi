@@ -1,0 +1,130 @@
+.loopwi_ad_area {
+	background-color: #F6F6F6;
+	padding: 12px;
+	border-top: 1px solid #0C9A8E;
+	text-align: left;
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 64px;
+	z-index: 999999999999999999999;
+	position: static;
+}
+
+.price {
+	color: red;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.clearfix:after { 
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clear { overflow:hidden; clear:both; height:1px; margin:-1px 0px 0px 0px; font-size:1px; }
+.clear-simple {clear:both; }
+
+.loopwi_ad_area a {
+	color: red;
+	text-decoration: none;
+}
+
+.loopwi_ad_area small {
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.loopwi_ad_area hr {
+	margin:20px;
+	padding: 0px;
+}
+
+.loopwi_banner {
+	float: left;
+	margin-right: 11px;
+	width: 250px; 
+	border:5px solid #D4DFFF;
+	border-radius: 6px;
+}
+
+.loopwi_title {
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 12px;
+}
+
+.loopwi_des {
+	color: #333333;
+}
+
+.loopwi_highlight {
+	background-color: #0C9A8E; 
+	padding:4px; 
+	color: #000; 
+	font-weight:bold; 
+	font-size:18px;
+	line-height: 16px;
+}
+
+.loopwi_btn {
+	color: #fff; 
+	background-color: red; 
+	border: 1px solid red;
+	border-color: red; 
+	font-size: 11px;
+	border-radius: 22px; 
+	margin: 5px 0px 5px 0px;  
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#loopwi_adscroll {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0070FF;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #84BAFF;
+    box-shadow: 0 0 15px #00214B;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#loopwi_adscroll marquee {
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+}
+
+#clickto a {
+	color: #fff;
+	text-decoration: underline;
+	font-size: 18px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
